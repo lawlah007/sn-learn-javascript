@@ -10,3 +10,15 @@ var string3 = 'Hello, world!';
 gs.info('string1=' + ((string1) ? 'true' : 'false'));
 gs.info('string2=' + ((string2) ? 'true' : 'false'));
 gs.info('string3=' + ((string3) ? 'true' : 'false'));
+
+/* my understanding and also check note*/
+var string1;
+var string2 = 2;
+var string3 = 'Hello, world!';
+gs.info('string1=' + ((string1) ? 'true' : 'false'));
+gs.info('string2=' + ((string2) ? 'true' : 'false'));
+gs.info('string3=' + ((string3) ? 'true' : 'false'));
+
+if (string2) {
+    gs.info ('string has something valid')
+}
