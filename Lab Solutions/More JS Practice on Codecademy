@@ -1,0 +1,17 @@
+//kelvin is constant
+const kelvin = 0;
+//celsius is also a constant, and is similar to kelvin, but 273 degrees less
+const celsius = kelvin - 273;
+//fahrenheit is not constant so we use the 'let' keyword
+let fahrenheit = celsius * (9/5) + 32;
+//fahrenheit needs to be a whole number
+fahrenheit = Math.floor(fahrenheit);
+//print the value of fahrenheit
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+//fahrenheit is not constant so we use the 'let' keyword
+let newton = celsius * (33/100);
+//fahrenheit needs to be a whole number
+newton = Math.floor(newton);
+//print the value of fahrenheit
+console.log(`The temperature is ${newton} degrees Newton.`);
